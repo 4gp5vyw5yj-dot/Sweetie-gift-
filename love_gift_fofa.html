@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffe4ef">
+<title>هدية صغيرة ليك 💗</title>
+<style>
+:root{--pink:#ff6fa8;--deep:#c73570;--pale:#fff0f6;--ink:#66334b}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:radial-gradient(circle at top,#fff 0,#ffeaf3 40%,#ffd6e7 100%);overflow-x:hidden}
+main{width:min(92%,520px);margin:0 auto;padding:28px 0 46px;position:relative;z-index:1}
+.card{background:#ffffffd9;border:1px solid #fff;box-shadow:0 18px 55px #c7357020;border-radius:28px;padding:26px 22px;text-align:center;backdrop-filter:blur(8px)}
+.pill{display:inline-block;background:#ffe0ed;color:#b82f69;border-radius:999px;padding:7px 13px;font-size:13px}
+h1{font-size:clamp(27px,7vw,39px);line-height:1.35;margin:15px 0 8px}
+p{line-height:1.95;margin:10px 0}
+.sub{color:#9d5876;font-size:14px}
+button{font:inherit;border:0;cursor:pointer;border-radius:999px;padding:13px 18px;margin:7px 4px;transition:transform .2s,box-shadow .2s}
+button:active{transform:scale(.97)}
+.primary{background:linear-gradient(135deg,#ff8fbb,#ff5d9e);color:white;box-shadow:0 8px 20px #ff6fa844}
+.secondary{background:#fff0f6;color:#b82f69;border:1px solid #ffd0e2}
+.envelope{width:176px;height:120px;margin:24px auto 12px;position:relative;cursor:pointer;filter:drop-shadow(0 10px 10px #c7357020);animation:bob 2.8s ease-in-out infinite}
+.env-base{position:absolute;inset:0;background:#ff8db9;border-radius:10px;overflow:hidden}
+.env-base:before,.env-base:after{content:"";position:absolute;bottom:-2px;width:0;height:0;border-top:78px solid transparent}
+.env-base:before{left:0;border-right:90px solid #ffb4d0}
+.env-base:after{right:0;border-left:90px solid #ff9fc5}
+.flap{position:absolute;left:0;top:0;width:0;height:0;border-left:88px solid transparent;border-right:88px solid transparent;border-top:68px solid #ff6fa8;transform-origin:top;transition:transform .5s;z-index:2}
+.seal{position:absolute;z-index:3;top:44px;left:72px;color:white;font-size:30px;text-shadow:0 2px 5px #c7357055}
+.envelope.open .flap{transform:rotateX(180deg);z-index:0}
+.hidden{display:none!important}
+.message{background:#fff7fb;border:1px dashed #ff9dc3;border-radius:20px;padding:19px 17px;margin-top:18px;text-align:right;animation:fade .6s ease both}
+.message h2{text-align:center;color:#c73570;font-size:21px;margin:0 0 10px}
+.heartline{font-size:23px;letter-spacing:5px;margin:10px}
+footer{text-align:center;color:#a55e7c;font-size:12px;padding:18px}
+.float{position:fixed;bottom:-35px;z-index:0;pointer-events:none;animation:rise linear forwards;opacity:.65}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-8px) rotate(2deg)}}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes rise{to{transform:translateY(-115vh) rotate(360deg);opacity:0}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+  <section class="card">
+    <span class="pill">صغيرة أوي… بس من قلبي 🎀</span>
+    <h1>في حاجة صغيرة عايزة أقولها لك 💗</h1>
+    <p>عملتلك الهدية دي مخصوص، عشان في كلام جوايا نفسي توصلهولك بهدوء.</p>
+    <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="افتح الظرف">
+      <div class="env-base"></div><div class="flap"></div><div class="seal">♥</div>
+    </div>
+    <p class="sub" id="hint">اضغط على الظرف وافتح رسالتك 🥹</p>
+    <button class="primary" id="openBtn">افتح رسالتك 💌</button>
+    <div class="message hidden" id="letter">
+      <h2>لأغلى حد عندي 🩷</h2>
+      <p>حبيبي، أنا آسفة على كل مرة زعلتك فيها، حتى لو ماخدتش بالي وقتها إن تصرفي ضايقك.</p>
+      <p>مش عايزة أقول «آسفة» وخلاص، ولا عايزة الهدية دي تبقى بديل عن إني أسمعك وأفهمك. أنا عارفة إن كل واحد فينا ممكن يغلط، وأنا نفسي أتعلم من اللي بيحصل وأبقى أحنّ وأوعى في كلامي وتصرفاتي معاك.</p>
+      <p>إنت غالي عندي، ومشاعرك تهمني. لو في حاجة جواك مضايقاك مني، أنا مستعدة أسمعك من غير ما أقاطعك أو أقلل من زعلك. ومش هطلب منك تنسى زعلك بسرعة؛ أنا بس حبيت أبدأ وأقولك إنّي آسفة بجد. 💗</p>
+      <p style="text-align:center;font-weight:700;color:#c73570">إنت تستاهل مني اهتمام وصدق، مش كلام حلو وبس. 🫶</p>
+      <div class="heartline" style="text-align:center">♡ ♡ ♡</div>
+      <button class="secondary" id="surpriseBtn">لسه في مفاجأة صغيرة… 🎁</button>
+    </div>
+    <div class="message hidden" id="surprise">
+      <h2>آخر حاجة بس 🥹</h2>
+      <p style="text-align:center">حتى لو مش بعرف أعبّر صح كل مرة، ده مش معناه إنّي مش مهتمة. نفسي نعرف نتكلم ونفهم بعض أكتر، ونخلّي اللي بينا أحنّ وأريح لينا إحنا الاتنين. 💞</p>
+      <p style="text-align:center">خد وقتك، ولما تحب نتكلم أنا موجودة أسمعك. 🌷</p>
+      <div class="heartline" style="text-align:center">💗 💗 💗</div>
+    </div>
+  </section>
+  <footer>اتعملت بحب مخصوص ليك ✨</footer>
+</main>
+<script>
+const envelope=document.getElementById('envelope');
+const letter=document.getElementById('letter');
+const hint=document.getElementById('hint');
+function openLetter(){letter.classList.remove('hidden');envelope.classList.add('open');hint.textContent='دي رسالة من قلبي ليك 💗';document.getElementById('openBtn').classList.add('hidden');letter.scrollIntoView({behavior:'smooth',block:'nearest'});burst();}
+document.getElementById('openBtn').addEventListener('click',openLetter);
+envelope.addEventListener('click',openLetter);
+envelope.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openLetter();}});
+document.getElementById('surpriseBtn').addEventListener('click',()=>{document.getElementById('surprise').classList.remove('hidden');document.getElementById('surpriseBtn').classList.add('hidden');burst();document.getElementById('surprise').scrollIntoView({behavior:'smooth',block:'nearest'});});
+function burst(){for(let i=0;i<13;i++){const h=document.createElement('span');h.className='float';h.textContent=['♡','💗','♥','✨'][Math.floor(Math.random()*4)];h.style.left=(Math.random()*100)+'vw';h.style.fontSize=(16+Math.random()*18)+'px';h.style.animationDuration=(3+Math.random()*3)+'s';document.body.appendChild(h);setTimeout(()=>h.remove(),6500);}}
+</script>
+</body>
+</html>
